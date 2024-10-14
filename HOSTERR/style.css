@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height:100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 198, 134);
+    overflow: hidden;
+    color: white;
+
+}
+.main{
+    height: 80%;
+    width: 75%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(252, 244, 232);
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+}
+.navbar{
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.navprt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    
+}
+.navprt1 h4{
+    margin: 10px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.navprt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navprt2 button{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left:10px;
+    font-weight: 700;
+   border-radius: 3px;
+}
+
+.mid-content{
+    height: 71%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.part1{
+    height: 71%;
+    width: 47%;
+}
+.part1 h1{
+    font-size: 55px;
+    line-height: 50px;
+
+}
+.part1 p{
+    margin-top: 15px;
+
+}
+.mid1{
+    margin-top: 15px;
+}
+.mid1 input{
+    height: 30px;
+}
+.mid1 button{
+    padding: 7px 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.mid1 button:hover{
+  box-shadow: 0px 0px 1px 1px green;
+  scale: 1.1;
+}
+.part2{
+    height: 75%;
+    width: 47%;
+}
+.part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0px 0px 10px  yellow);
+
+}
+img{
+    filter: b
+}
+.footer{
+    height: 10%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 28px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border: none;
+    outline: none;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.footer h3{
+    margin-right: 10px;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 5px;
+}
+
+.video{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}

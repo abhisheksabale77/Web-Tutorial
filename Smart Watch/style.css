@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.navbarprt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 90px;
+}
+.navbarprt1 h3{
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.navbarprt2{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarprt2 button{
+    padding: 15px 50px;
+    background-color:rgb(228, 113, 132);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.part2{
+    display: flex;
+    height: 85%;
+    width: 100%;
+}
+.content{
+    height: 100%;
+    width: 40%;
+    padding: 7%;
+    background-color: rgb(7, 7, 7);
+}
+.watch{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 7);
+}
+
+.watch img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    margin-bottom: 45px;
+}
+
+.info{
+    height: 100%;
+    width:30% ;
+    position: relative;
+    background-color:rgb(7, 7, 7);
+    color: white;
+}
+
+.content h1{
+color: white;
+font-size: 50px; 
+}
+
+span{
+    color: red;
+}
+
+.content p{
+    color: white;
+}
+
+.content h1,p,button{
+    margin-top: 20px;
+}
+.content button{
+    padding: 8px 50px;
+    font-weight: 700;
+    color: rgb(179, 11, 39);
+    border: 2px solid rgb(179, 11, 39);
+    background-color: rgb(7, 7, 7);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgb(179, 11, 39);  
+    margin-top: 25px;  
+    transition: 1s;  
+}
+
+i{
+    color: pink;
+    font-size:28px;
+    margin-left: 5px;
+}
+.info p{
+    margin-top: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.gpstracker{
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    border-left: 4px solid rgb(234, 57, 87);
+    top: 20%;
+    left: 10%;
+}
+.heart{
+    
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    border-left: 4px solid rgb(234, 57, 87);
+    top: 40%;
+    left: 20%;
+}
+.cal{
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    border-left: 4px solid rgb(234, 57, 87);
+    top: 60%;
+    left: 30%;
+}
+.navbarprt2 button:hover{
+    box-shadow: 0px 0px 4px 6px rgb(245, 31, 124);
+
+}
+.content button:hover{
+    box-shadow: 0px 0px 4px 4px rgb(234,57,87);
+    
+    padding: 8px 60px;
+    transition: ease;
+}

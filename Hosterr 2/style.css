@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.page{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(241, 241, 195);
+    border-radius: 25px;
+    /* filter: drop-shadow(5px 5px 30px black); */
+}
+
+.navbar{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+.part1 i{
+    font-size: 25px;
+}
+.part1 i,h3,button{
+    margin: 7px;
+}
+.part1 button{
+    color: white;
+    background-color: rgb(238, 166, 31);
+    padding: 8px 30px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+.part1 button:hover{
+    scale: 1.1;
+    box-shadow: 1px 1px 20px black;
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2 p{
+    margin: 15px;
+    font-size: 18px;
+}
+
+.part3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.part3 button{
+    color: white;
+    padding: 8px 30px;
+    background-color: blue;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+.part3 button:hover{
+    scale: 1.1;
+    box-shadow: 1px 1px 20px black;
+}
+.part3 p{
+    font-size: 18px;
+}
+.part3 p,button{
+    margin: 10px;
+}
+
+.midcontent{
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+.midpart1{
+    height: 100%;
+    width: 47%;
+}
+.midpart1 h1{
+    font-size: 55px;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.midpart1 p{
+    margin-top: 20px;
+    font-size: 19px;
+    line-height: 19px;
+    margin-left: 50px;
+}
+.midpart1content{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 50px;
+    align-items: center;
+}
+.midpart1content input{
+    height: 40px;
+    width: 60%;
+    border: none;
+    outline: none;
+}
+.midpart1content input::placeholder{
+    padding: 10px;
+}
+.midpart1content button{
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.midpart1content button:hover{
+    scale: 1.1;
+    box-shadow: 1px 1px 20px black;
+} 
+
+.agreement{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    margin-top: 10px;
+}
+.agreement img{
+    margin-top: 16px;
+}
+
+.midpart2{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    z-index: 3;
+    margin-left: 3%;
+    overflow: hidden;
+}
+.midpart2 img{
+    height: 97%;
+    width: 97%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+}
+/* #img4{
+    transform: translate(-50%, -50%) rotate(-1deg);
+} */
+#img3{
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-25deg);
+}
+
+.footer{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot1{
+    margin-left: 30px;
+    display: flex;
+}
+.foot1 h3{
+    margin: 15px;
+}
+.foot2{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    display: flex;
+}
+.circle img{
+    height: 67px;
+    width: 65px;
+} 
